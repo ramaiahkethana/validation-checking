@@ -1,0 +1,23 @@
+{
+  "name": "validation-checking",
+  "version": "1.0.0",
+  "description": "check whether value is undefined or empty or null",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christyram99/data-checking.git"
+  },
+  "keywords": [
+    "data",
+    "checking"
+  ],
+  "author": "christyram99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christyram99/data-checking/issues"
+  },
+  "homepage": "https://github.com/christyram99/data-checking#readme"
+}
