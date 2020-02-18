@@ -1,6 +1,6 @@
 {
   "name": "validation-checking",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "check whether value is undefined or empty or null",
   "main": "index.js",
   "scripts": {
