@@ -13,7 +13,7 @@ npm i validation-checking
 No dependencies
 
 ## Usage
-### Checking given variable is any one of undefined or null
+### Undefined or Null checking
 ```js
     const testVariable = null
     const result = ValidationChecking.isUndefinedOrNull(testVariable)
@@ -21,7 +21,7 @@ No dependencies
     console.log(result) // true
 ```
 
-### Checking given object is empty or not
+### Object is empty or not checking
 ```js
     const emptyObject = {}
     const result = ValidationChecking.isObjectEmpty(emptyObject)
@@ -29,7 +29,7 @@ No dependencies
     console.log(result) // true
 ```
 
-### Checking given variable is undefined or not
+### Undefined variable checking
 ```js
     const testUndefinedVariable = undefined
     const result = ValidationChecking.isUndefined(testUndefinedVariable)
@@ -37,7 +37,7 @@ No dependencies
     console.log(result) // true
 ```
 
-### Checking given variable is null or not
+### Null variable checking
 ```js
     const testNullVariable = null
     const result = ValidationChecking.isNull(testUndefinedVariable)
