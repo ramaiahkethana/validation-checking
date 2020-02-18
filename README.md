@@ -16,6 +16,8 @@ No dependencies
 ### Object related validation
 #### Object is empty or not checking
 ```js
+    const ValidationChecking = require('validation-checking')
+
     const emptyObject = {}
     const result = ValidationChecking.isObjectEmpty(emptyObject)
 
@@ -24,6 +26,8 @@ No dependencies
 
 #### Object is undefined or null or empty checking
 ```js
+    const ValidationChecking = require('validation-checking')
+
     const emptyObject = null
     const result = ValidationChecking.isObjectUndefinedOrNullOrEmpty(emptyObject)
 
@@ -33,6 +37,8 @@ No dependencies
 ### Variable related validation
 #### Undefined or Null checking
 ```js
+    const ValidationChecking = require('validation-checking')
+
     const testVariable = null
     const result = ValidationChecking.isUndefinedOrNull(testVariable)
 
@@ -42,6 +48,8 @@ No dependencies
 
 #### Undefined variable checking
 ```js
+    const ValidationChecking = require('validation-checking')
+
     const testUndefinedVariable = undefined
     const result = ValidationChecking.isUndefined(testUndefinedVariable)
 
@@ -50,6 +58,8 @@ No dependencies
 
 #### Null variable checking
 ```js
+    const ValidationChecking = require('validation-checking')
+
     const testNullVariable = null
     const result = ValidationChecking.isNull(testUndefinedVariable)
 
