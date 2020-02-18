@@ -21,7 +21,12 @@
     "is object",
     "is number",
     "is boolean",
-    "is string"
+    "is string",
+    "isArray",
+    "isObject",
+    "isNumber",
+    "isBoolean",
+    "isString"
   ],
   "author": "christyram99",
   "license": "ISC",
