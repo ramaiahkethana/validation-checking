@@ -40,3 +40,17 @@ test('array checking', t => {
   t.false(ValidationChecking.isArrayEmpty(array))
   t.true(ValidationChecking.isArrayEmpty(emptyArray))
 })
+
+test('data type checking', t => {
+  t.true(ValidationChecking.isString(''))
+  t.false(ValidationChecking.isString(4))
+  t.true(ValidationChecking.isNumber(4))
+  t.false(ValidationChecking.isNumber('4'))
+  t.false(ValidationChecking.isString(true))
+  t.true(ValidationChecking.isBoolean(false))
+  t.false(ValidationChecking.isBoolean(1))
+  t.true(ValidationChecking.isArray([1, 2]))
+  t.false(ValidationChecking.isArray({}))
+  t.true(ValidationChecking.isObject({}))
+  t.false(ValidationChecking.isObject([]))
+})
