@@ -11,8 +11,12 @@
     "url": "git+https://github.com/christyram99/data-checking.git"
   },
   "keywords": [
-    "data",
-    "checking"
+    "validation-checking",
+    "validation checking",
+    "validation",
+    "data validation",
+    "object empty checking",
+    "array empty checking"
   ],
   "author": "christyram99",
   "license": "ISC",
