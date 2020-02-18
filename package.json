@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/christyram99/data-checking/issues"
   },
-  "homepage": "https://github.com/christyram99/data-checking#readme"
+  "homepage": "https://github.com/christyram99/data-checking#readme",
+  "devDependencies": {
+    "ava": "^3.3.0"
+  }
 }
