@@ -59,3 +59,28 @@ No dependencies
     const testNullVariable = null
     const result = ValidationChecking.isNull(testUndefinedVariable) // true
 ```
+
+### Data types checking
+```js
+    const ValidationChecking = require('validation-checking')
+
+    // number
+    ValidationChecking.isNumber(5) // true
+    ValidationChecking.isNumber('testString') // false
+
+    // boolean
+    ValidationChecking.isBoolean(false) // true
+    ValidationChecking.isBoolean('testString') // false
+
+    // string
+    ValidationChecking.isString('testString') // true
+    ValidationChecking.isString(5) // false
+
+    // array
+    ValidationChecking.isArray([1, 2]) // true
+    ValidationChecking.isArray('testString') // false
+
+    // object
+    ValidationChecking.isObject({ testKey: 'testValue' }) // true
+    ValidationChecking.isObject('testString') // false
+```
