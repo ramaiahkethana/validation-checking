@@ -40,9 +40,7 @@ No dependencies
     const ValidationChecking = require('validation-checking')
 
     const testVariable = null
-    const result = ValidationChecking.isUndefinedOrNull(testVariable)
-
-    console.log(result) // true
+    const result = ValidationChecking.isUndefinedOrNull(testVariable) // true
 ```
 
 
@@ -51,9 +49,7 @@ No dependencies
     const ValidationChecking = require('validation-checking')
 
     const testUndefinedVariable = undefined
-    const result = ValidationChecking.isUndefined(testUndefinedVariable)
-
-    console.log(result) // true
+    const result = ValidationChecking.isUndefined(testUndefinedVariable) // true
 ```
 
 #### Null variable checking
@@ -61,7 +57,5 @@ No dependencies
     const ValidationChecking = require('validation-checking')
 
     const testNullVariable = null
-    const result = ValidationChecking.isNull(testUndefinedVariable)
-
-    console.log(result) // true
+    const result = ValidationChecking.isNull(testUndefinedVariable) // true
 ```
