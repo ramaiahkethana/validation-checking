@@ -13,54 +13,27 @@ npm i validation-checking
 No dependencies
 
 ## Usage
-### Object related validation
-#### Object is empty or not checking
+### Object, undefined and null validation
 ```js
     const ValidationChecking = require('validation-checking')
 
-    const emptyObject = {}
-    const result = ValidationChecking.isObjectEmpty(emptyObject)
+    ValidationChecking.isObjectEmpty({}) // true
+    ValidationChecking.isObjectEmpty({ a: 1 }) //false
 
-    console.log(result) // true
+    ValidationChecking.isObjectUndefinedOrNullOrEmpty(null) // true
+    ValidationChecking.isObjectUndefinedOrNullOrEmpty({ a: 1 }) // false
+
+    ValidationChecking.isUndefinedOrNull(null) // true
+    ValidationChecking.isUndefinedOrNull('testString') // false
+
+    ValidationChecking.isUndefined(undefined) // true
+    ValidationChecking.isUndefined('testString') // false
+
+    ValidationChecking.isNull(null) // true
+    ValidationChecking.isNull('testString') // false
 ```
 
-#### Object is undefined or null or empty checking
-```js
-    const ValidationChecking = require('validation-checking')
-
-    const emptyObject = null
-    const result = ValidationChecking.isObjectUndefinedOrNullOrEmpty(emptyObject)
-
-    console.log(result) // true
-```
-
-### Variable related validation
-#### Undefined or Null checking
-```js
-    const ValidationChecking = require('validation-checking')
-
-    const testVariable = null
-    const result = ValidationChecking.isUndefinedOrNull(testVariable) // true
-```
-
-
-#### Undefined variable checking
-```js
-    const ValidationChecking = require('validation-checking')
-
-    const testUndefinedVariable = undefined
-    const result = ValidationChecking.isUndefined(testUndefinedVariable) // true
-```
-
-#### Null variable checking
-```js
-    const ValidationChecking = require('validation-checking')
-
-    const testNullVariable = null
-    const result = ValidationChecking.isNull(testUndefinedVariable) // true
-```
-
-### Data types checking
+### Data types validation
 ```js
     const ValidationChecking = require('validation-checking')
 
