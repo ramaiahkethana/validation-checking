@@ -40,8 +40,5 @@
   "homepage": "https://github.com/christyram99/data-checking#readme",
   "devDependencies": {
     "ava": "^3.3.0"
-  },
-  "dependencies": {
-    "semver-compare": "^1.0.0"
   }
 }
