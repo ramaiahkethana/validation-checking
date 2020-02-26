@@ -1,4 +1,6 @@
-# validation-checking: a validation checking library
+#validation-checking
+
+> A validation checking library
 
 **Note:** This is module will work in both client side and server side
 
