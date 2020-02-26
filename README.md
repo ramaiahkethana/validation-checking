@@ -2,6 +2,10 @@
 
 > A validation checking library
 
+[![npm version][npm-version-image]][npm-version-url]
+[![coverage][coverage-image]][coverage-url]
+[![js-standard-style][js-standard-style-img]][js-standard-style-url] 
+
 **Note:** This is module will work in both client side and server side
 
 ## Installing
@@ -59,3 +63,10 @@ No dependencies
     ValidationChecking.isObject({ testKey: 'testValue' }) // true
     ValidationChecking.isObject('testString') // false
 ```
+
+[npm-version-image]:https://badge.fury.io/js/validation-checking.svg
+[npm-version-url]:https://badge.fury.io/js/validation-checking
+[coverage-image]:https://coveralls.io/repos/github/christyram99/validation-checking/badge.svg?branch=master
+[coverage-url]:https://coveralls.io/github/christyram99/validation-checking?branch=master
+[js-standard-style-img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
+[js-standard-style-url]: http://standardjs.com/
